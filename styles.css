@@ -1,0 +1,88 @@
+.inline {
+    display: flex;
+}
+
+.kar {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.menu-main {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 30px;
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #777777;
+    transition: .3s linear;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon-instagram {
+    background-image: url(inst-ico.png);
+    background-position: -114px 0px;
+    width: 114px;
+    height: 114px;
+}
+
+.icon-youtube {
+    background-image: url(ytub.png);
+    background-position: -114px -114px;
+    width: 114px;
+    height: 114px;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#portfolio {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background: #4285f4;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 3px;
+    cursor: default;
+    border: 1px solid #4285f4;
+}
+
+.btn:hover {
+    color: #4285f4;
+    background: #fff;
+    border: 1px solid #4285f4;
+}
+
+
